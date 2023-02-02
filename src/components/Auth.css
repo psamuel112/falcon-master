@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    height:916px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+form {
+    display: block;
+    position: relative
+}
+form .form-inner .form-group{
+    display: block;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.form-inner .form-group label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+    color:#4B4A4AC9;
+    font-weight: 500;
+    margin-left: 60px;
+    line-height: 16.94px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+form .form-inner .form-group input{
+    width:635px;
+   border: 1.5px solid #01C8FF;
+   height: 65px;
+   background-color: #e4edfe;
+   border-radius: 5px;
+   margin-bottom:-5px;
+   padding: 30px;
+   font-size: 16px;
+   margin-left: 59px;
+   font-family: 'Inter', sans-serif;
+}
+
+.form-main {
+ padding-left: 4rem;
+ height: 916px;
+ background-color: #e4edfe
+
+  
+}
+.form-main button{
+    padding: 12px;
+    background-color:#01C8FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor:pointer;
+    margin-top: 0.5rem;
+    width: 528px;
+    height: 50px;
+    cursor: pointer;
+    color: #4B4A4AC9;
+    justify-content: space-between;
+    margin-left: 135px;
+}
+
+#signUp p{
+    font-size: 100px;
+
+}
+.form-main .btn{
+    
+}
+
+.container .form-main h3{
+    font-size: 33.18px;
+    margin-top: -8px;
+    margin-bottom: 5px;
+    margin-left: 59px;
+    line-height: 40.45px;
+    color: #0D0D26;
+   font-weight: 500;
+   font-family: 'Montserrat', sans-serif;
+  
+
+}
+
+.container .form-main p{
+    font-size: 19.2px;
+    margin-bottom: 30px;
+   color: #4B4A4A;
+   margin-left: 59px;
+   font-weight: 400;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+.checkBox{
+    margin-bottom: 20px;
+    margin-top: -20px;
+    align-items: center;
+    margin-left: 59px;
+}
+
+.checkBox input{
+    cursor: pointer;
+    width:12px;
+    color: #800080
+}
+
+.checkBox label{
+    padding-left: 8px;
+    font-size: 15px;
+    color: #90ee90
+}
+    
+form  input::placeholder{
+   
+    color: #adb2bc;
+}
+
+.form-main .signup-footer {
+    margin-left:239px;
+    margin-top: 15px;
+
+}
+.form-main .signup-footer p{
+    font-size: 16px;
+    line-height: 19.5px;
+    color:#4B4A4A;
+    font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+  
+
+
+}
+.form-main .signup-footer span{
+color:#01C8FF;
+text-decoration: underline;
+cursor: pointer;
+}
+ 
+.right{
+background-image: url(./images/frame.png);
+width: 625px;
+height: 916px;
+}
+
+.right img{
+    position: relative;
+    width: 646px;
+    height: 528px;
+    margin-top: 168px;
+    padding-left:-40px;
+}
+
